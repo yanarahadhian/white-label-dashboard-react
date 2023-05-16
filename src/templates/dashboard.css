@@ -1,0 +1,131 @@
+/* ----------------------------------------- */
+/* Dashboard Menu & Sider */
+
+.menu-trigger {
+	width: 22px;
+	cursor: pointer;
+}
+
+.logo-home {
+	width: auto;
+	height: 45px;
+	margin-left: 10px;
+}
+
+@media (max-width: 575px) {
+	.menu-trigger {
+		width: 18px;
+	}
+	
+	.logo-home {
+		width: auto;
+		height: 35px;
+		margin-left: 5px;
+	}
+}
+
+/* ----------------------------------------- */
+/* Dashboard Container Statistic */
+
+.container-statistic {
+	height: 160px;
+}
+
+.col-deposit {
+	background: url('https://jpx-whitelabel.s3.amazonaws.com/assets/container-deposit.png') no-repeat center;
+	height: 119px;
+	background-size: 344px 128px;
+}
+
+.col-burn-rate {
+	background: url('https://jpx-whitelabel.s3.amazonaws.com/assets/container-burnrate.png') no-repeat center;
+	height: 119px;
+	background-size: 344px 128px;
+}
+
+.col-estimate-time {
+	background: url('https://jpx-whitelabel.s3.amazonaws.com/assets/container-estimate.png') no-repeat center;
+	height: 119px;
+	background-size: 344px 128px;
+}
+
+.statistic-text-title {
+	margin-top: 5px;
+	height: 32px;
+	font-size: 18px;
+	color: #ffffff;
+}
+
+.statistic-text-content {
+	height: 78px;
+	margin-top: 3px;
+	font-size: 22px;
+	color: #ffffff;
+}
+
+/* ----------------------------------------- */
+/* Dashboard Container Transaction */
+
+.container-transaction {
+	padding : 15px;
+	height: 335px;
+	margin-bottom: 20px;
+	border-radius: 3px;
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.14);
+}
+
+.transaction-title {
+	font-size: 20px;
+}
+
+.transaction-chart {
+	height: 200px;
+}
+
+/* ----------------------------------------- */
+/* Dashboard Container PPOB Growth */
+
+.container-ppob {
+	border-radius: 3px;
+	padding : 15px;
+	height: 325px;
+	margin-bottom: 20px;
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.14);
+}
+
+/* ----------------------------------------- */
+/* Dashboard Container Branchless Banking */
+
+.container-bb {
+	border-radius: 3px;
+	padding : 15px;
+	height: 455px;
+	margin-bottom: 20px;
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.14);
+}
+
+.bb-adjust {
+	height: 325px;
+}
+
+/* ----------------------------------------- */
+/* Dashboard Container Top 10 Best Product */
+
+.container-best-product {
+	border-radius: 3px;
+	padding-top: 20px;
+	height: 490px;
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.14);
+}
+
+/* ----------------------------------------- */
+
+.container-title {
+	font-size: 18px;
+	margin-bottom: 25px;
+}
+
+.container-checkbox {
+	margin-top: 20px;
+}
+

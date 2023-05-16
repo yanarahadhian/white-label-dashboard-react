@@ -1,0 +1,63 @@
+@media all and (min-width: 480px) {
+    .Login-page {
+        position:fixed !important;
+        position:absolute;
+        top:0;
+        bottom:0;
+        left:0;
+        right:0;
+        background-color: #f9f9f9;
+    }
+
+    .Login-form {
+        position: absolute;
+        width: 375px;
+        height: 410px;
+        top: 40%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        border-radius: 37px;
+        background-color: #ffffff;
+        padding: 5px 30px;
+    }
+
+    .forgotPassword-form {
+        position: absolute;
+        width: 375px;
+        height: 300px;
+        top: 40%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        border-radius: 37px;
+        background-color: #ffffff;
+        padding: 5px 30px;
+    }
+
+    .wave {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    .main-logo {
+        width: 300px;
+        height: auto;
+        margin: 15px 0px;
+    }
+
+    .Login-form-button {
+        width: 280px;
+        height: 48px;
+        border-radius: 100px;
+        background-color: #009de1;
+        color: #ffffff;
+        font-family: Lato;
+        font-size: 17px;
+        font-weight: bold;
+        line-height: 0.61;
+    }
+  }
+  

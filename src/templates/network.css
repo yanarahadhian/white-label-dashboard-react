@@ -1,0 +1,18 @@
+.Rectangle {
+    /* width: 85%; */
+    height: 48px;
+    margin: 24px 0px;
+    background-color: #ffffff;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, .2);
+}
+
+.icon-tooltip {
+    height: 15px;
+    width: 15px;
+}
+
+.network-asset-avatar {
+    height: 25px;
+    width: auto;
+    border-radius: 3px;
+}
